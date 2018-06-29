@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Initiate a snaspshot store:
+
+```ruby
+snapshot_store = SandthornSnapshotMemcached.from_url "<memcached url>"
+```
 
 ## Development
 
